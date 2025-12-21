@@ -14,24 +14,14 @@
 
 ![深色模式](/assets/screenshot_dark.jpg)
 
-## 支持直播平台：
+## 添加功能
 
-- 虎牙直播
+- [x] 弹幕文字描边设置
+- [x] PC端播放器静音功能
 
-- 斗鱼直播
+## 当前特性(BUG, 修复打勾)
 
-- 哔哩哔哩直播
-
-- 抖音直播
-
-## APP支持平台
-
-- [x] Android
-- [x] iOS
-- [x] Windows `BETA`
-- [x] MacOS `BETA`
-- [x] Linux `BETA`
-- [x] Android TV `BETA`
+- [ ] 弹幕字体透明度等设置需重新进入直播间后生效, 无法热更新
 
 ## 项目结构
 
@@ -46,7 +36,9 @@ Flutter : `3.38`
 
 ## 参考及引用
 
-[AllLive](https://github.com/xiaoyaocz/AllLive) `本项目的C#版，有兴趣可以看看`
+[dart_simple_live](https://github.com/xiaoyaocz/dart_simple_live)
+
+[AllLive](https://github.com/xiaoyaocz/AllLive) `simple_live@xiaoyaocz项目的C#版，有兴趣可以看看`
 
 [dart_tars_protocol](https://github.com/xiaoyaocz/dart_tars_protocol.git)
 
