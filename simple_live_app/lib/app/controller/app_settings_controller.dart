@@ -157,7 +157,7 @@ class AppSettingsController extends GetxController {
         .getValue(LocalStorageService.kUpdateFollowDuration, 10);
 
     updateFollowThreadCount.value = LocalStorageService.instance
-        .getValue(LocalStorageService.kUpdateFollowThreadCount, 0);  // 默认 0 = 自动
+        .getValue(LocalStorageService.kUpdateFollowThreadCount, 0); // 默认 0 = 自动
 
     initSiteSort();
     initHomeSort();

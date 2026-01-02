@@ -310,11 +310,12 @@ Widget buildFullControls(
                       },
                       iconSize: 24,
                       icon: Icon(
-                        switch (AppSettingsController.instance.playerVolume.value) {
+                        switch (
+                            AppSettingsController.instance.playerVolume.value) {
                           0 => Icons.volume_off,
-                          <=35 => Icons.volume_mute,
-                          <=65 => Icons.volume_down,
-                          <=100 => Icons.volume_up,
+                          <= 35 => Icons.volume_mute,
+                          <= 65 => Icons.volume_down,
+                          <= 100 => Icons.volume_up,
                           _ => Icons.volume_down,
                         },
                         color: Colors.white,
@@ -577,11 +578,12 @@ Widget buildControls(
                     },
                     iconSize: 24,
                     icon: Icon(
-                      switch (AppSettingsController.instance.playerVolume.value) {
+                      switch (
+                          AppSettingsController.instance.playerVolume.value) {
                         0 => Icons.volume_off,
-                        <=35 => Icons.volume_mute,
-                        <=65 => Icons.volume_down,
-                        <=100 => Icons.volume_up,
+                        <= 35 => Icons.volume_mute,
+                        <= 65 => Icons.volume_down,
+                        <= 100 => Icons.volume_up,
                         _ => Icons.volume_down,
                       },
                       color: Colors.white,
