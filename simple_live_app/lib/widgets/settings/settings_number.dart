@@ -97,7 +97,8 @@ class SettingsNumber extends StatelessWidget {
           ],
         ),
       ),
-      onTap: () => openSilder(context),
+      // 取消单击显示滑动条
+      // onTap: () => openSilder(context),
     );
   }
 
